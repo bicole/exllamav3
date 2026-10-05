@@ -70,7 +70,7 @@ cu132 = [
     "torch>=2.6.0",
 ]
 cu134 = [
-    "torch>=2.6.0",
+    "torch>=2.6.0; python_version < '3.12'",
 ]
 
 [tool.setuptools]
